@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="viewStock-main-container"
+>
+  <h2
+    className="heading viewStock-heading"
+  >
+    Hi, 
+    <span
+      className="name"
+    >
+      .
+    </span>
+     See available stock below
+  </h2>
+  <div
+    className="viewStock-container"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Item ID
+        </th>
+        <th>
+          Item Name
+        </th>
+        <th>
+          Item Quantity
+        </th>
+      </tr>
+    </tbody>
+  </div>
+</div>
+`;

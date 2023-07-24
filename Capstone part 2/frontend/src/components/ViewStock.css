@@ -1,0 +1,25 @@
+tbody,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 0.5em;
+  width: 80%;
+  table-layout: fixed;
+}
+th,
+td {
+  width: 80%;
+  table-layout: fixed;
+  background-color: #96d4d4;
+}
+
+.viewStock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .viewStock-main-container {
+} */

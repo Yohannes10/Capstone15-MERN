@@ -1,0 +1,66 @@
+.AddStock-main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddStock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddStock-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.AddStock-form label {
+  margin: 1rem;
+  /* change color */
+}
+
+.AddStock-form input {
+  width: 25rem;
+  font-family: "Courier New", Courier, monospace;
+  padding: 0.25rem;
+  border-radius: 1rem;
+}
+
+.AddStock-button {
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 0.5em;
+  width: 80%;
+  table-layout: fixed;
+}
+th,
+td {
+  width: 80%;
+  table-layout: fixed;
+  background-color: #96d4d4;
+}
+
+.viewStock-container {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  color: red;
+}
